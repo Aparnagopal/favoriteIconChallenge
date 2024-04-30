@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Showcase of Aparna Gopalakrishnan's work on SheCodes Favorite Celebrity Challenge"
+    />
+    <title>Iconic Celebrity Challenge by Aparna-SheCodes</title>
+    <style>
+      :root {
+        --primary-color: #ff63b441;
+        --secondary-color: #f5f2fe;
+        --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+      }
+
+      .imgmain {
+        background: linear-gradient(#0b0d0cf8, rgba(5, 39, 25, 0.878));
+      }
+
+      @media screen and (max-width: 950px) {
+        #heart {
+          font-size: 900%;
+          color: #54400f;
+
+          padding-left: 15%;
+          vertical-align: middle;
+        }
+
+        #feather {
+          font-size: 100%;
+          margin-left: -20%;
+          vertical-align: -60%;
+        }
+
+        #heartfont {
+          position: absolute;
+          margin-top: 26%;
+
+          font-family: "Sedan", serif;
+          margin-left: -30%;
+          font-size: 80%;
+        }
+
+        .nav-item {
+          font-size: 100%;
+        }
+        .jlo-intro {
+          position: absolute;
+          margin-top: -12%;
+          margin-left: 51%;
+          color: #f5f2fe;
+          font-size: 50%;
+        }
+
+        #jengreen {
+          width: 40%;
+        }
+
+        #cardd {
+          font-size: small;
+        }
+
+        #cardh {
+          font-size: small;
+        }
+
+        .videolnk {
+          font-size: small;
+        }
+      }
+
+      @media screen and (min-width: 768px) and (max-width: 1400px) {
+        #heart {
+          font-size: 1700%;
+          color: #54400f;
+
+          padding-left: 15%;
+          vertical-align: middle;
+        }
+
+        #feather {
+          font-size: 210%;
+          margin-left: -17%;
+        }
+
+        #heartfont {
+          position: absolute;
+          margin-top: 26%;
+          font-family: "Sedan", serif;
+          margin-left: -24%;
+          font-size: 150%;
+        }
+
+        .nav-item {
+          font-size: 100%;
+        }
+
+        .jlo-intro {
+          position: absolute;
+          margin-top: -15%;
+          margin-left: 48%;
+          color: #f5f2fe;
+          font-size: 110%;
+        }
+
+        #jengreen {
+          width: 40%;
+        }
+
+        #cardd {
+          font-size: small;
+        }
+
+        #cardh {
+          font-size: smaller;
+        }
+      }
+
+      @media screen and (min-width: 1400px) {
+        #heart {
+          font-size: 3000%;
+          color: #54400f;
+          vertical-align: auto;
+          padding-left: 15%;
+        }
+
+        #feather {
+          position: absolute;
+          font-size: 250%;
+          margin-left: -16%;
+          margin-top: 20%;
+        }
+
+        #heartfont {
+          position: absolute;
+          font-family: "Sedan", serif;
+          margin-left: -22%;
+          margin-top: 15%;
+          font-size: 200%;
+        }
+
+        .nav-item {
+          font-size: 100%;
+        }
+
+        .jlo-intro {
+          position: absolute;
+          margin-top: -20%;
+          margin-left: 48%;
+          color: #f5f2fe;
+          font-size: 200%;
+        }
+
+        #jengreen {
+          width: 40%;
+          height: fit-content;
+        }
+
+        #cardh {
+          font-size: large;
+        }
+      }
+      .active {
+        background: #54400f !important;
+      }
+
+      .nav-link {
+        color: #f5f2fe !important;
+        font-size: small;
+      }
+
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 22%;
+        border-radius: 5px;
+        margin-top: 5%;
+        margin-bottom: 10%;
+      }
+
+      #card1 {
+        margin-left: 1%;
+      }
+
+      .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+      }
+
+      #jentimg {
+        border-radius: 5px;
+      }
+
+      #container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 2%;
+
+        background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/871/original/hummingbird-4.jpg?1714400301);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      #card2 {
+        margin-left: 16%;
+      }
+
+      #cardcntnt {
+        margin-left: 1%;
+      }
+
+      #cardh {
+        font-stretch: narrower;
+
+        text-align: center;
+      }
+    </style>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/99e6824af1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <ul class="nav nav-pills justify-content-end fixed-top" id="navbar">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">⌂ Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#container">📽️𝄞💃🏻</a>
+      </li>
+    </ul>
+
+    <div class="imgmain">
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/956/original/Jengreen-1.jpg?1714455056"
+        id="jengreen"
+      />
+      <span class="fa-layers fa-fw">
+        <i class="fa-solid fa-heart" id="heart"></i>
+        <span class="fa-inverse" id="heartfont">Jennifer Lopez</span>
+        <i class="fa-solid fa-feather-pointed fa-inverse" id="feather"></i>
+      </span>
+
+      <p class="jlo-intro">Dancer‼️ ❣ Actor‼️ ❣ Singer‼️ ❣ Fashionista‼️ ❣</p>
+    </div>
+
+    <div id="container">
+      <div class="card" id="card1">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/872/original/JLOentertainer-1.jpeg?1714400341"
+          alt="JLOentertainer"
+          id="jentimg"
+        />
+        <div id="cardcntnt">
+          <h4 id="cardh"><b>Entertainer</b></h4>
+          <p id="cardd">
+            Jennifer is a dancer, singer and actress often dubbed as "Queen of
+            Dance". She is regarded as one of the most influential entertainers.
+          </p>
+          <a
+            class="videolnk"
+            href="hhttps://www.youtube.com/watch?v=SEqAJuuPo9I"
+            target="_blank"
+            >Watch here ...
+          </a>
+        </div>
+      </div>
+      <div class="card" id="card2">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/873/original/JLOmoviestar.jpg?1714400356"
+          alt="JLOmoviestar"
+          id="jentimg"
+        />
+
+        <div id="cardcntnt">
+          <h4 id="cardh"><b>Actor</b></h4>
+          <p id="cardd">
+            She rose to prominence as an actress, with leading roles in the
+            films Selena (1997), Anaconda (1997) and Out of Sight (1998).
+          </p>
+          <a
+            class="videolnk"
+            href="https://www.google.com/search?q=jennifer+lopez+hit+movies&rlz=1C2CHBF_enIN1021IN1037&sca_esv=745f5fe10f6754c9&biw=1536&bih=730&tbm=vid&sxsrf=ACQVn0_t9lGrYXCML1OpEfqpUpv8AsAM_w%3A1713003459150&ei=w1saZq_bCMmOseMP3NmViA8&oq=jennifer+hit+movies&gs_lp=Eg1nd3Mtd2l6LXZpZGVvIhNqZW5uaWZlciBoaXQgbW92aWVzKgIIATIGEAAYCBgeMgYQABgIGB4yBhAAGAgYHjIIEAAYgAQYogQyCBAAGIAEGKIESJBZUOILWIpHcAB4AJABAJgByAGgAe4YqgEGMC4xNy4xuAEByAEA-AEBmAIFoAKwB8ICBBAjGCfCAggQABiJBRiiBMICCBAhGKABGMMEwgIKECEYChigARjDBJgDAIgGAZIHAzAuNaAHgCY&sclient=gws-wiz-video#fpstate=ive&vld=cid:7d2a2493,vid:IIsuqnsdRzg,st:0"
+            target="_blank"
+            >Watch here ...
+          </a>
+        </div>
+      </div>
+      <div class="card" id="card2">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/124/957/original/JLOfashion-2.jpg?1714455121"
+          alt="JLOfashionicon"
+          id="jentimg"
+        />
+
+        <div id="cardcntnt">
+          <h4 id="cardh"><b>Fashion Icon</b></h4>
+          <p id="cardd">
+            A fashion icon, Lopez has shaped various fashion and beauty trends
+            through her red carpet fashion and personal style.
+          </p>
+          <a
+            class="videolnk"
+            href="https://www.youtube.com/watch?v=SPI7tEV_CNc"
+            target="_blank"
+            >Watch here ...
+          </a>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
